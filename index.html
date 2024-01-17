@@ -539,7 +539,6 @@
               .get(`${url}/api/${path}/admin/products`)
               .then((res) => {
                 this.products = res.data.products;
-                console.log(res.data.products);
                 // 使用 all API, 取得 products
                 // Object.values(res.data.products).forEach((item) => {
                 //   this.products.push(item);
